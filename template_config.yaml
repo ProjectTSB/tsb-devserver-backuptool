@@ -1,0 +1,14 @@
+###
+### このファイルをコピーするかリネームして config.yaml を作成してください
+###
+
+# サーバーのディレクトリパス
+serverDirPath: ''
+
+# ワールドのディレクトリ名
+# Spigot環境等を考慮し、複数指定可にしています
+worldDirNames:
+    - ''
+
+# GoogleDriveのアップロード先ディレクトリID
+driveDirId: ''
