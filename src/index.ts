@@ -10,7 +10,7 @@ import { Pipe } from './util/Pipe';
 import { FileName } from './util/FileName';
 
 const main = async () => {
-    const conf: Config = yaml.load(readFileSync('config.yaml', 'utf-8'));
+    const conf = yaml.load(readFileSync('config.yaml', 'utf-8')) as Config;
 
     try {
         const rcon = await Rcon.connect({
