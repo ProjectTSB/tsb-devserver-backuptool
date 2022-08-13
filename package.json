@@ -10,6 +10,7 @@
         "token": "tsc && node dist/getAccessToken.js"
     },
     "dependencies": {
+        "@google-cloud/local-auth": "^2.1.0",
         "googleapis": "^105.0.0",
         "js-yaml": "^4.1.0",
         "rcon-client": "^4.2.3",
